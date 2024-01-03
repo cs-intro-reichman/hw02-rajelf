@@ -3,7 +3,27 @@
  *  as long as they form a non-decreasing sequence.
  */
 public class InOrder {
+	
 	public static void main (String[] args) {
-		//// Write your code here
+		int randomNum = (int) (Math.random() * 10);
+    int nextNum;
+    int temp;
+    System.out.println(randomNum);
+      
+     
+       do{
+         nextNum =  (int) (Math.random() * 10);
+        if ( nextNum > randomNum){
+          System.out.println(" " + nextNum);
+          temp = randomNum;
+          randomNum = nextNum;
+          nextNum = temp;
+        }
+
+       } while (randomNum > nextNum);
+    }
+              
+           
 	}
-}
+	
+
