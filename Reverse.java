@@ -23,7 +23,7 @@ public class Reverse {
 		System.out.println(reverseString);
 
 		if (originalString.length() % 2 == 0){
-			position = originalString.length()/2+1;
+			position = originalString.length()/2;
 			length = 1;
 
 
