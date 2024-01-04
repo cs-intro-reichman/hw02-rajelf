@@ -25,10 +25,10 @@ public class OneOfEachStats {
 			boolean boy= false;
 			boolean girl= false;
 			int counter = 0;
-			double n;
+			
 
 			while(boy == false || girl == false){
-				n = generator.nextDouble();
+				double n = generator.nextDouble();
 				if(n ==  0){
 					boy = true;
 					
@@ -82,4 +82,4 @@ public class OneOfEachStats {
 		//// This is the only change that you have to do in the program.
 		    
 	}
-}
+
